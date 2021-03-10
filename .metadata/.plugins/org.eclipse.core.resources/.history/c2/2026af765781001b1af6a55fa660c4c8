@@ -16,8 +16,8 @@ public class School extends Human {
         Teacher t= new Teacher("ram"+i);
         }
 int i=0;
-   //   while(i<10)
-      //{Teacher t=new Teacher()}
+      while(i<10)
+      {Teacher t=new Teacher("Ram")}
         //t.setName("Ram");//
        // t[i].setSalary(30000);
         	//	t.setSubject("Maths");

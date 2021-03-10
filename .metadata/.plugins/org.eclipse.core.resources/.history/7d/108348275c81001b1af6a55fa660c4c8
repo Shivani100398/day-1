@@ -5,9 +5,5 @@ public class Main {
 			B b=new B();
 		 System.out.println(b.age);
 		 b.m1();
-		 
-		  A a=new B();
-		  A b1=new A();
-		  
 		}
 }
