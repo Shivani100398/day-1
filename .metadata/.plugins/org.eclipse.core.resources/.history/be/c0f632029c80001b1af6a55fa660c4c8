@@ -1,0 +1,39 @@
+
+public class Student {
+//public static void main(String[] args) {
+	//System.out.println();
+	
+//}
+ private String name;
+ private byte age;
+ 
+ Student(String name,byte age)
+ {
+	 setName(name);
+	 setAge(age);
+	 
+ }
+
+public String getName() {
+	return name;
+}
+
+public void setName(String name) {
+	
+	if(name==null || name.trim().equals(""))
+	{
+		
+		throw new IllegalArgumentException("Name is Mandatory");
+		
+	}
+	this.name = name;
+}
+
+public int getAge() {
+	return age;
+}
+
+public void setAge(byte age) {
+	this.age = age;
+}
+}

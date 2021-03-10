@@ -1,0 +1,6 @@
+package ibm.com;
+
+public class A {
+
+	 protected int age=0;
+}
