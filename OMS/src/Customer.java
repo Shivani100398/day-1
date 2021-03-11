@@ -3,7 +3,7 @@ public class Customer
 {
   public static void main(String[] args) 
   {
-	
+	Customer customer[]=new Customer[10];
 	  for(int i=0;i<10;i++)
 	  {
 		  Order order=new Order("Ram"+i);
@@ -15,8 +15,8 @@ public class Customer
   }	
 }
 
-enum ORDER
-{SMARTPHONE,SMARTWATCH,EARPHONES,IPHONE,IWATCH}
+/*enum ORDER
+{SMARTPHONE,SMARTWATCH,EARPHONES,IPHONE,IWATCH}*/
 public class Define{
 	
 	
