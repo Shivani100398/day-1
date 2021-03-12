@@ -11,23 +11,21 @@ public class Keywordthis {
 		enum GENDER{
 			MALE,FEMALE
 			}
-
-
-		public class Student {
+        class Student {
 		 public Student(String name)
 		 {this.name=name;}
 			private String name;
-		 private Gender gender;
+		 private GENDER gender;
 		public String getName() {
 			return name;
 		}
 		public void setName(String name) {
 			this.name = name;
 		}
-		public Gender getGender() {
+		public GENDER getGender() {
 			return gender;
 		}
-		public void setGender(Gender gender) {
+		public void setGender(GENDER gender) {
 			this.gender = gender;
 		}
 		 
