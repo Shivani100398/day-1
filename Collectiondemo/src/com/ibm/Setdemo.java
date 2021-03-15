@@ -14,7 +14,9 @@ private static void createBookSet() {
 		book.setPrice(100*i);
 		book.setPublishYear(i+2000);
 		books.add(book);
+		books.add(book);
 	}
 	System.out.println(books);
+	System.out.println(books.size());
   }
 }

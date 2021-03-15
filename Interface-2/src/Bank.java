@@ -5,7 +5,12 @@ public static void main(String[] args) {
 	accounts[0]=new FDAccount();
 	accounts[1]=new SavingAccount();
 	accounts[2]=new RecurringAccount();
-	for(IAccount iaccount:accounts)
-	{iaccount.deposit();}
+//
+	for (int i = 0; i < accounts.length; i++) {
+		IAccount iAccount = accounts[i];
+		iAccount.deposit();
+	}
+	/*for(IAccount iaccount:accounts)
+	{iaccount.deposit();}*/
 }
 }

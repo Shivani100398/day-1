@@ -13,10 +13,6 @@ public class Assignment
 			
 		}
 		
-		   int a = 1 || 2 ^ 3 && 5;
-		    int b = ((1 || 2) ^ 3) && 5;
-		    int c = 1 || (2 ^ (3 && 5));
-		    System.out.print(a + "," + b + "," + c);
-		
-    }	
+		 
+	}
 }
